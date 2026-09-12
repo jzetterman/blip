@@ -54,7 +54,8 @@ Two permissions must be granted by hand (macOS will not let a script do it):
 
   2. Automation → Messages: the first send from an ssh session pops a prompt on
      THIS Mac's screen: "sshd-keygen-wrapper wants to control Messages" — click
-     Allow once. (blip-setup triggers this with a dry-run-free self-send.)
+     Allow once. (blip-setup triggers this by asking Messages for a property,
+     not by sending anything — no message is texted to you or anyone else.)
 
 Then check:
 EOF
